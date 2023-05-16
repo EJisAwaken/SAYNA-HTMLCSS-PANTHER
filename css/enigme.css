@@ -1,0 +1,71 @@
+
+@font-face {
+    font-family: Wakanda;
+    src: url("../fonts/wakanda_forever/WakandaForever-Regular.ttf");
+}
+
+.partie1{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+
+
+main{
+    margin: 0 0 0 8%;
+}
+
+.chiffre p, .notation{
+    font-family: Wakanda;
+}
+
+
+
+#enigme-img{
+    width: 68%;
+    margin-bottom: 5%;
+}
+
+#title{
+    margin: 20% 0;
+}
+.enigme-text1 .m p{
+    text-align: justify;
+}
+
+.enigme-text1{
+    position: absolute;
+    width: 28%;
+    padding: 2%;
+    margin: 0 0 0 55%;
+}
+
+.alpha{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 2px;
+}
+
+#form-enigme{
+}
+
+[type="text"]{
+    border: 2px solid #DF99F2;
+    width: 70%;
+    padding: 2%;
+    border-radius: 40px;
+}
+
+#btn2{
+    background-color: #DF99F2;
+    padding: 2% 8%;
+    border-radius: 40px;
+    margin: 0 40%;
+}
+
+.savoir{
+    width: 40%;
+    margin:0 2% 0 2%;
+}

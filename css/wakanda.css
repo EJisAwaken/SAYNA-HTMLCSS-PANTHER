@@ -1,0 +1,57 @@
+
+.wak1{
+    width: 92%;
+    display: flex;
+    margin: 0 0 0 5%;
+    align-items: center;
+}
+
+.wakimg1 img{
+    width: 140%;
+    margin-left: -40%;
+
+}
+
+.part1{
+    display: flex;
+    margin: 0 0 0 8%;
+    align-items: center;
+}
+
+.wakp1{
+    /*border: 1px solid red;*/
+    width: 25%;
+}
+
+.wakp1 h1{
+    font-size: 160%;
+    /*border: 1px solid white;*/
+    width: 200%;
+}
+
+.wakp1 h3{
+    font-size: 1em;
+    width: 200%;
+}
+
+.wakp1 p{
+    width: 150%;
+    font-size: 1.2vw;
+    text-align: justify;
+}
+
+.droite{
+    width: 45%;
+    margin: 0 40px;
+}
+
+.gauche{
+    width: 50%;
+}
+
+.part3{
+    background-size: contain;
+    -webkit-filter: brightness(80%) ;
+    background-repeat: no-repeat;
+    background-image: url("../Pictures/Wakanda/Pantherwakanda2.png");
+}
