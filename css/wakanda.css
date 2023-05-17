@@ -1,4 +1,9 @@
 
+@font-face {
+    font-family: Wakanda;
+    src: url("../fonts/wakanda_forever/WakandaForever-Regular.ttf");
+}
+
 .wak1{
     width: 92%;
     display: flex;
@@ -7,7 +12,7 @@
 }
 
 .wakimg1 img{
-    width: 140%;
+    width: 143%;
     margin-left: -40%;
 
 }
@@ -19,23 +24,24 @@
 }
 
 .wakp1{
+    position: absolute;
     /*border: 1px solid red;*/
     width: 25%;
 }
 
 .wakp1 h1{
-    font-size: 160%;
+    font-size: 5vw;
     /*border: 1px solid white;*/
     width: 200%;
 }
 
 .wakp1 h3{
-    font-size: 1em;
+    font-size: 3vw;
     width: 200%;
 }
 
 .wakp1 p{
-    width: 150%;
+    width: 120%;
     font-size: 1.2vw;
     text-align: justify;
 }

@@ -1,14 +1,19 @@
 *{
     margin: 0;
     padding: 0;
-    list-style: none;
     text-decoration: none;
     color: white;
+    list-style: none;
 }
 
 @font-face {
     font-family:BEYNO;
     src:url("fonts/BEYNO/BEYNO.ttf");
+}
+
+a:active{
+    background-color: darkmagenta;
+    color: darkmagenta;
 }
 
 h1, h2, h3{
@@ -27,6 +32,7 @@ body{
                                     /*css du header*/
 
 nav{
+    list-style: none;
     margin-left: 8%;
     display: flex;
     justify-content: space-between;
@@ -35,6 +41,7 @@ nav{
 }
 
 .pages{
+    list-style: none;
     display: flex;
     justify-content: space-between;
 }
@@ -263,6 +270,9 @@ footer{
     width: 60%;
 }
 
+.foot2 div{
+    font-size: 2vw;
+}
 #logof{
     width: 10vw;
 }
@@ -281,6 +291,18 @@ footer{
 .reseau img{
     margin: 10px;
     width: 10%;
+}
+
+.droit, .droit ul{
+    font-size: 1.5vw;
+    align-items:center ;
+    display: flex;
+    list-style-type:disc;
+}
+
+.droit ul li{
+    margin: 22px;
+    font-size:1.5vw ;
 }
 
 
