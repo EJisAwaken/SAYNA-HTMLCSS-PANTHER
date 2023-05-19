@@ -4,38 +4,16 @@
     src: url("../fonts/wakanda_forever/WakandaForever-Regular.ttf");
 }
 
-.partie1{
-    display: flex;
-    width: 100%;
-    align-items: center;
-}
-
-#title h1{
-    font-size:3.5vw;
-    border: 2px solid red;
-    width: 120%;
- }
-
-
-
 main{
     margin: 0 0 0 8%;
 }
 
-.chiffre p, .notation{
-    font-family: Wakanda;
-}
+                                /*La premiere partie*/
 
-
-
-#enigme-img{
-    width: 75%;
-    margin-bottom: 5%;
-}
-
-.decor img{
-    position: absolute;
-    width: 120% ;
+.partie1{
+    display: flex;
+    width: 100%;
+    align-items: center;
 }
 
 .enigme-txt2{
@@ -43,10 +21,23 @@ main{
 }
 
 .enigme-txt2 p{
-    margin: 20% 0 0 0;
-    font-size: 1.5vw;
+    margin: 60% 0 0 5%;
+    font-size: 1vw;
+    width: 90%;
 }
 
+.decor img{
+    position: absolute;
+    width: 125% ;
+    margin: 30% 0 0 -10%;
+    filter: brightness(300%);
+}
+
+.ligne{
+    position: absolute;
+    margin: -17vw 0 0 0;
+    width: 50%;
+}
 .enigme-text1{
     position: absolute;
     width: 28%;
@@ -54,14 +45,34 @@ main{
     margin: -30% 0 0 55%;
 }
 
+#title h1{
+    font-size:3.5vw;
+    width: 120%;
+ }
+
+
+#enigme-img{
+    width: 75%;
+    margin-bottom: 5%;
+}
+
+
+
+
+
+                            /*La deuxieme partie*/
+
+
+.chiffre p, .notation{
+    font-size: 2vw;
+    font-family: Wakanda;
+}
+
 .alpha{
     width: 100%;
     display: flex;
     justify-content: space-between;
     letter-spacing: 2px;
-}
-
-#form-enigme{
 }
 
 [type="text"]{
@@ -79,10 +90,40 @@ main{
 }
 
 .savoir{
-    width: 40%;
-    margin:0 2% 0 2%;
+    position: absolute;
+    width: 30%;
+    margin:0 2% 0 56%;
+}
+
+.savoir p{
+    text-align: center;
+    font-size: 1vw;
+
+}
+
+.decor2 img{
+    position: absolute;
+    width: 40% ;
+    margin: -7% 0 0 -42%;
+    filter: brightness(300%);
 }
 
 .alphabet{
-    width: 50%;
+    letter-spacing: initial;
+    width: 45%;
 }
+
+#form-enigme{
+    margin:30% 0 10% 0;
+}
+
+#reponse{
+    color: blue;
+}
+
+footer{
+    margin-top: 20%;
+}
+
+
+

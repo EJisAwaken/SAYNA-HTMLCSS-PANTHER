@@ -250,6 +250,10 @@ nav{
 
 }
 
+[input]{
+    color: blue;
+}
+
                                     /*LE FOOTER*/
 
 footer{
@@ -294,14 +298,21 @@ footer{
 }
 
 .droit, .droit ul{
+    /*border: 2px solid white;*/
     font-size: 1.5vw;
     align-items:center ;
     display: flex;
-    list-style-type:disc;
+    width: 140%;
+    margin: 7% 0 0 -10%;
+
 }
 
+.rond::before{
+    content: "•";
+    color: #DF99F2;
+}
 .droit ul li{
-    margin: 22px;
+    /*border: 2px solid white;*/
     font-size:1.5vw ;
 }
 
