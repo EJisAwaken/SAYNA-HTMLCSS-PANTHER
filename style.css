@@ -11,12 +11,30 @@
     src:url("fonts/BEYNO/BEYNO.ttf");
 }
 
+
+html{
+    opacity: 0; /* Masquer l'élément initialement */
+    transform: translateX(-100%); /* Déplacer l'élément hors de l'écran à gauche */
+    animation: fadeSlideIn 1s ease-out forwards; /* Animation de fondu et de mouvement */
+}
+
+@keyframes fadeSlideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
 a:active{
     background-color: darkmagenta;
     color: darkmagenta;
 }
 
-h1, h2, h3{
+h1, h2, h3, .pages{
     font-family: BEYNO;
 }
 
@@ -28,6 +46,37 @@ body{
     background-size: cover;
     background-image: url("Pictures/All pages/arrière_plan.png");
 }
+
+
+                                /*css du scroll bar*/
+
+.scroll{
+    margin: 0 0 0 10px;
+    position: fixed;
+}
+
+.scroll-1{
+    width: max-content;
+    margin: 0 0 0 10px;
+}
+
+.ligned{
+    background-color: #DF99F2;
+    margin: -300px 0 0 20px;
+    width: 3px;
+    height: 200px;
+}
+
+
+.ligneg{
+    margin: -70px 0 0 0px;
+    border: 1px solid #DF99F2;
+    background-color: #DF99F2;
+    width: 3px;
+    height: 200px;
+}
+
+
 
                                     /*css du header*/
 
@@ -60,6 +109,13 @@ nav{
 .pages li{
     margin: 20px;
 }
+
+.logo img:hover{
+
+    filter: invert(69%) sepia(87%) saturate(1131%) hue-rotate(243deg) brightness(98%) contrast(90%);
+}
+
+
 
 
                                 /*css de la partie1*/
@@ -227,6 +283,8 @@ nav{
 
                                     /*CSS DU FORMULAIRE*/
 
+
+
 .formulaire {
     text-align: center;
     width: 100%;
@@ -257,8 +315,14 @@ nav{
 #submit{
     background-color:#DF99F2;
     padding: 2% 7%;
+    border: none;
     border-radius: 45px;
 
+}
+
+button:hover{
+    cursor: pointer;
+    outline: 2px solid #DF99F2;
 }
 
 [input]{
@@ -277,6 +341,7 @@ footer{
     width: max-content;
     margin: 0 0 0 10%;
 }
+
 
 .foot2{
     display: flex;
